@@ -1,42 +1,59 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
+    "name" : "Verify broken images",
+    "children" : [ {
+      "name" : "Verify Title",
+      "uid" : "3d2289beff093ab6",
+      "parentUid" : "b905db4002c8c6dda459b8aae2298723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633481493,
+        "stop" : 1627633481614,
+        "duration" : 121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "b905db4002c8c6dda459b8aae2298723"
+  }, {
     "name" : "Check login page defaults",
     "children" : [ {
       "name" : "Check h2 header displayed",
-      "uid" : "9cb60490bc65d3ad",
+      "uid" : "2c5c2b278d45ac34",
       "parentUid" : "c3c13aa5235e1b95fa6d6bd3c3a89744",
       "status" : "passed",
       "time" : {
-        "start" : 1627633081000,
-        "stop" : 1627633081082,
-        "duration" : 82
+        "start" : 1627633481535,
+        "stop" : 1627633481608,
+        "duration" : 73
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Ispect footer text",
-      "uid" : "53d4f2aa18cc5df0",
+      "uid" : "826418b982de6bb3",
       "parentUid" : "c3c13aa5235e1b95fa6d6bd3c3a89744",
       "status" : "passed",
       "time" : {
-        "start" : 1627633081082,
-        "stop" : 1627633081143,
-        "duration" : 61
+        "start" : 1627633481608,
+        "stop" : 1627633481702,
+        "duration" : 94
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Verify Footer link",
-      "uid" : "9e8a9a1e4f1cca67",
+      "uid" : "6575144cfb4b7390",
       "parentUid" : "c3c13aa5235e1b95fa6d6bd3c3a89744",
       "status" : "passed",
       "time" : {
-        "start" : 1627633081144,
-        "stop" : 1627633081224,
-        "duration" : 80
+        "start" : 1627633481703,
+        "stop" : 1627633481776,
+        "duration" : 73
       },
       "flaky" : false,
       "newFailed" : false,
