@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 30 08:14:57 UTC 2021","Fri Jul 30 08:14:57 UTC 2021","51","","Check login page defaults","","Check login page defaults","Ispect footer text","Ispect footer text",""
-"passed","Fri Jul 30 08:14:57 UTC 2021","Fri Jul 30 08:14:57 UTC 2021","71","","Check login page defaults","","Check login page defaults","Check h2 header displayed","Check h2 header displayed",""
-"passed","Fri Jul 30 08:14:57 UTC 2021","Fri Jul 30 08:14:57 UTC 2021","53","","Check login page defaults","","Check login page defaults","Verify Footer link","Verify Footer link",""
+"passed","Fri Jul 30 08:18:01 UTC 2021","Fri Jul 30 08:18:01 UTC 2021","61","","Check login page defaults","","Check login page defaults","Ispect footer text","Ispect footer text",""
+"passed","Fri Jul 30 08:18:01 UTC 2021","Fri Jul 30 08:18:01 UTC 2021","82","","Check login page defaults","","Check login page defaults","Check h2 header displayed","Check h2 header displayed",""
+"passed","Fri Jul 30 08:18:01 UTC 2021","Fri Jul 30 08:18:01 UTC 2021","80","","Check login page defaults","","Check login page defaults","Verify Footer link","Verify Footer link",""
