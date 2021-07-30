@@ -1,0 +1,76 @@
+{
+  "uid" : "9e76bb3318d2d922",
+  "name" : "Verify Footer link",
+  "fullName" : "Check login page defaults.Verify Footer link",
+  "historyId" : "4abfdceb3966f500f7e8771dfc7764f",
+  "time" : {
+    "start" : 1627633795572,
+    "stop" : 1627633795720,
+    "duration" : 148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/home/runner/work/wdioTestActionsSync/wdioTestActionsSync/test/specs/Main.spec.js:27:54)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/home/runner/work/wdioTestActionsSync/wdioTestActionsSync/test/specs/Main.spec.js:27:54)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f078fd35d1f00013",
+      "name" : "Screenshot",
+      "source" : "f078fd35d1f00013.png",
+      "type" : "image/png",
+      "size" : 88509
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "testClass",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Footer link"
+  }, {
+    "name" : "package",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e76bb3318d2d922.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}
