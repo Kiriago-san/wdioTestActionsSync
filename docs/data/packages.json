@@ -4,13 +4,13 @@
     "name" : "Basic Auth in modal",
     "children" : [ {
       "name" : "Login with correct credential",
-      "uid" : "96930e53ade83cec",
+      "uid" : "fb95e7678a19ef0c",
       "parentUid" : "c47f1660144f54574e125bd37e0aec6c",
       "status" : "passed",
       "time" : {
-        "start" : 1627633793635,
-        "stop" : 1627633793962,
-        "duration" : 327
+        "start" : 1627634684077,
+        "stop" : 1627634684466,
+        "duration" : 389
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Verify broken images",
     "children" : [ {
       "name" : "Verify Title",
-      "uid" : "ae90093981659f17",
+      "uid" : "56bfb39dccf1c008",
       "parentUid" : "a3a1001c4deebe7086ecf42547ee7400",
       "status" : "passed",
       "time" : {
-        "start" : 1627633793872,
-        "stop" : 1627633794016,
-        "duration" : 144
+        "start" : 1627634684429,
+        "stop" : 1627634684553,
+        "duration" : 124
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,42 +38,42 @@
     "name" : "Check login page defaults",
     "children" : [ {
       "name" : "Check h2 header displayed",
-      "uid" : "99776a378e601317",
+      "uid" : "2775bfdc25501607",
       "parentUid" : "d62eca238bae9a7df65352f607ff48a6",
       "status" : "passed",
       "time" : {
-        "start" : 1627633795420,
-        "stop" : 1627633795505,
-        "duration" : 85
+        "start" : 1627634685903,
+        "stop" : 1627634685982,
+        "duration" : 79
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Ispect footer text",
-      "uid" : "55f6df05a599747e",
+      "uid" : "2ccba45d2c3031fa",
       "parentUid" : "d62eca238bae9a7df65352f607ff48a6",
       "status" : "passed",
       "time" : {
-        "start" : 1627633795505,
-        "stop" : 1627633795572,
-        "duration" : 67
+        "start" : 1627634685982,
+        "stop" : 1627634686060,
+        "duration" : 78
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Verify Footer link",
-      "uid" : "e2e0ee78aa4200a8",
+      "uid" : "be60aad3c699770b",
       "parentUid" : "d62eca238bae9a7df65352f607ff48a6",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1627633795572,
-        "stop" : 1627633795720,
-        "duration" : 148
+        "start" : 1627634686060,
+        "stop" : 1627634686143,
+        "duration" : 83
       },
       "flaky" : false,
-      "newFailed" : true,
+      "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     } ],
     "uid" : "d62eca238bae9a7df65352f607ff48a6"
