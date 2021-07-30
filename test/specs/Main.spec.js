@@ -24,7 +24,7 @@ describe('Check login page defaults', () => {
 
     });
     it('Verify Footer link',()=>{
-        expect(logInPage.isLinkDisplayed(footerLink)).true;
+        expect(logInPage.isLinkDisplayed(footerLink)).false;
         expect(logInPage.getLinkText(footerLink)).contain(footerLinkText);
     });
     //#endregion
