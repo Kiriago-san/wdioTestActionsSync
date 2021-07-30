@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Check h2 header displayed",
+    "uid" : "452cd65407d74c26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1627632048816,
+      "stop" : 1627632048908,
+      "duration" : 92
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.107" ]
+  }, {
+    "name" : "Ispect footer text",
+    "uid" : "e8d6a68f4d506194",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1627632048908,
+      "stop" : 1627632048980,
+      "duration" : 72
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.107" ]
+  }, {
+    "name" : "Verify Footer link",
+    "uid" : "2520766720b8c5ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1627632048980,
+      "stop" : 1627632049071,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.107" ]
+  } ],
+  "name" : "behaviors"
+}
