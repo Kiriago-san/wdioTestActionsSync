@@ -11,8 +11,20 @@ before('land to main url', () => {
   browser.url(envURLs.LOG_IN+"broken_images");
 });
 //#endregion
-describe('Verify broken images',()=>{
-  it('Verify Title',()=>{
+describe('C1 Verify broken images',()=>{
+  it('C1 Verify Title',()=>{
+    expect(brokenImages.isTitleDistpayed(h3Title)).true;
+    expect(brokenImages.getHeaderText(h3Title)).contain(h3TitleTex);
+  });
+  it('C2 Verify Title',()=>{
+    expect(brokenImages.isTitleDistpayed(h3Title)).true;
+    expect(brokenImages.getHeaderText(h3Title)).contain(h3TitleTex);
+  });
+  it('C3 Verify Title',()=>{
+    expect(brokenImages.isTitleDistpayed(h3Title)).true;
+    expect(brokenImages.getHeaderText(h3Title)).contain(h3TitleTex);
+  });
+  it('C4 Verify Title',()=>{
     expect(brokenImages.isTitleDistpayed(h3Title)).true;
     expect(brokenImages.getHeaderText(h3Title)).contain(h3TitleTex);
   });

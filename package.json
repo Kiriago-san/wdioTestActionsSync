@@ -7,7 +7,7 @@
     "test": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.headless.conf.js",
     "config": "sh -ac 'if test \"$TESTS_ENV\"; then cp environments/env.${TESTS_ENV}.json.template environments/env.json; fi'",
     "test:chrome:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.headless.conf.js",
-    "test:chrome:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.conf.js  --spec test/specs/BrokenImages.spec.js",
+    "test:chrome:ui": "npx wdio run config/wdio.chrome.conf.js  --spec test/specs/BrokenImages.spec.js",
     "test:firefox:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.firefox.headless.conf.js",
     "test:firefox:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.firefox.conf.js --spec test/specs/Login.spec.js",
     "test:edge:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.edge.headless.conf.js",
@@ -33,13 +33,16 @@
     "@wdio/selenium-standalone-service": "^7.7.4",
     "@wdio/spec-reporter": "^7.7.3",
     "@wdio/sync": "^7.7.4",
+    "axios": "^0.21.1",
     "chai": "^4.3.4",
     "chromedriver": "^91.0.1",
     "cross-env": "^7.0.3",
     "fs-extra": "^10.0.0",
+    "mocha-testrail-reporter-custom": "^1.1.3",
     "path": "^0.12.7",
     "wdio-chromedriver-service": "^7.1.1",
-    "wdio-iedriver-service": "^0.1.0"
+    "wdio-iedriver-service": "^0.1.0",
+    "wdio-v6-testrail-reporter": "^0.0.13"
   },
   "dependencies": {
     "allure-commandline": "^2.13.8",
@@ -47,6 +50,8 @@
     "expect-webdriverio": "^3.1.0",
     "fs": "0.0.1-security",
     "hosted-git-info": ">=2.8.9",
-    "shortid": "^2.2.16"
+    "shortid": "^2.2.16",
+    "testrail-api": "^1.3.6",
+    "wdio-testrail-reporter": "^1.1.5"
   }
 }
