@@ -1,30 +1,40 @@
 [ {
-  "uid" : "53d4f2aa18cc5df0",
-  "name" : "Ispect footer text",
-  "time" : {
-    "start" : 1627633081082,
-    "stop" : 1627633081143,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cb60490bc65d3ad",
-  "name" : "Check h2 header displayed",
-  "time" : {
-    "start" : 1627633081000,
-    "stop" : 1627633081082,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e8a9a1e4f1cca67",
+  "uid" : "6575144cfb4b7390",
   "name" : "Verify Footer link",
   "time" : {
-    "start" : 1627633081144,
-    "stop" : 1627633081224,
-    "duration" : 80
+    "start" : 1627633481703,
+    "stop" : 1627633481776,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "826418b982de6bb3",
+  "name" : "Ispect footer text",
+  "time" : {
+    "start" : 1627633481608,
+    "stop" : 1627633481702,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c5c2b278d45ac34",
+  "name" : "Check h2 header displayed",
+  "time" : {
+    "start" : 1627633481535,
+    "stop" : 1627633481608,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d2289beff093ab6",
+  "name" : "Verify Title",
+  "time" : {
+    "start" : 1627633481493,
+    "stop" : 1627633481614,
+    "duration" : 121
   },
   "status" : "passed",
   "severity" : "normal"

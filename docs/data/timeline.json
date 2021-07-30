@@ -3,21 +3,21 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Verify Footer link",
-      "uid" : "9e8a9a1e4f1cca67",
+      "name" : "Verify Title",
+      "uid" : "3d2289beff093ab6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1627633081144,
-        "stop" : 1627633081224,
-        "duration" : 80
+        "start" : 1627633481493,
+        "stop" : 1627633481614,
+        "duration" : 121
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Ispect footer text",
-      "uid" : "53d4f2aa18cc5df0",
+      "uid" : "2679eea7ed3f6de2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -30,7 +30,7 @@
       "parameters" : [ "chrome-92.0.4515.107" ]
     }, {
       "name" : "Check h2 header displayed",
-      "uid" : "9cb60490bc65d3ad",
+      "uid" : "f4b0a5fc47eccfad",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -41,8 +41,64 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify Footer link",
+      "uid" : "bd08afde7dc6c1df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633081144,
+        "stop" : 1627633081224,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Ispect footer text",
+      "uid" : "826418b982de6bb3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633481608,
+        "stop" : 1627633481702,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Check h2 header displayed",
+      "uid" : "2c5c2b278d45ac34",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633481535,
+        "stop" : 1627633481608,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify Footer link",
+      "uid" : "6575144cfb4b7390",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633481703,
+        "stop" : 1627633481776,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
   } ],
   "name" : "timeline"
 }
