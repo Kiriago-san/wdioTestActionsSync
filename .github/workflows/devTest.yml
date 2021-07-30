@@ -7,7 +7,7 @@ on:
   #   branches: [ master ]
 
 jobs:
-  Run test:
+  Run_test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
