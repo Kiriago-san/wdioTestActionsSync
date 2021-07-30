@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627633795419' stop='1627633795721'>
+    <name>Check login page defaults</name>
+    <title>Check login page defaults</title>
+    <test-cases>
+        <test-case start='1627633795420' status='passed' stop='1627633795505'>
+            <name>Check h2 header displayed</name>
+            <title>Check h2 header displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1627633795505' status='passed' stop='1627633795572'>
+            <name>Ispect footer text</name>
+            <title>Ispect footer text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1627633795572' status='failed' stop='1627633795720'>
+            <name>Verify Footer link</name>
+            <title>Verify Footer link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='be616f8e-bacf-46f3-a415-7ad02d263e66-attachment.png' type='image/png' size='88509'/>
+            </attachments>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (/home/runner/work/wdioTestActionsSync/wdioTestActionsSync/test/specs/Main.spec.js:27:54)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
