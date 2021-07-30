@@ -29,9 +29,7 @@ jobs:
       if: always()
       # trying to save history screens and info of previous runs if it is exists
       run: cp -r $(pwd)/docs/backupHistory/. $(pwd)/allure-results
-    - name: Create Report
-      if: always()
-      - name: Create bacup directory
+    - name: Create bacup directory
       if: always()
       # trying to create backup directory
       run: mkdir allure-report/backupHistory 
@@ -43,6 +41,8 @@ jobs:
       if: always()
       run: ls -R
       working-directory: allure-report/backupHistory
+    - name: Create Report
+      if: always()
       # trying to save history of previous runs if it is exists
       run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run allure:generate
     - name: Upload artifact allure-report
