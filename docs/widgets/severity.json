@@ -1,30 +1,30 @@
 [ {
-  "uid" : "181fc98e8e64f839",
+  "uid" : "4a27a3414149b22c",
   "name" : "Ispect footer text",
   "time" : {
-    "start" : 1627632472243,
-    "stop" : 1627632472302,
-    "duration" : 59
+    "start" : 1627632897329,
+    "stop" : 1627632897380,
+    "duration" : 51
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "45b293fc38a2f9d8",
-  "name" : "Verify Footer link",
-  "time" : {
-    "start" : 1627632472302,
-    "stop" : 1627632472371,
-    "duration" : 69
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b3f31da5eddeda4f",
+  "uid" : "25789953c439d9ff",
   "name" : "Check h2 header displayed",
   "time" : {
-    "start" : 1627632472148,
-    "stop" : 1627632472243,
-    "duration" : 95
+    "start" : 1627632897258,
+    "stop" : 1627632897329,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f220169ee507c367",
+  "name" : "Verify Footer link",
+  "time" : {
+    "start" : 1627632897380,
+    "stop" : 1627632897433,
+    "duration" : 53
   },
   "status" : "passed",
   "severity" : "normal"
