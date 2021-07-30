@@ -1,0 +1,149 @@
+{
+  "uid" : "e2e0ee78aa4200a8",
+  "name" : "Verify Footer link",
+  "fullName" : "Check login page defaults.Verify Footer link",
+  "historyId" : "4abfdceb3966f500f7e8771dfc7764f",
+  "time" : {
+    "start" : 1627633795572,
+    "stop" : 1627633795720,
+    "duration" : 148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/home/runner/work/wdioTestActionsSync/wdioTestActionsSync/test/specs/Main.spec.js:27:54)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/home/runner/work/wdioTestActionsSync/wdioTestActionsSync/test/specs/Main.spec.js:27:54)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c2d37223f3094a7",
+      "name" : "Screenshot",
+      "source" : "1c2d37223f3094a7.png",
+      "type" : "image/png",
+      "size" : 88509
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "testClass",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Footer link"
+  }, {
+    "name" : "package",
+    "value" : "Check login page defaults"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "923c489717439cc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633481703,
+        "stop" : 1627633481776,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "ef38c33abb3f8a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627633081144,
+        "stop" : 1627633081224,
+        "duration" : 80
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6575144cfb4b7390",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627633481703,
+          "stop" : 1627633481776,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "9e8a9a1e4f1cca67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627633081144,
+          "stop" : 1627633081224,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "f220169ee507c367",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627632897380,
+          "stop" : 1627632897433,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "45b293fc38a2f9d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627632472302,
+          "stop" : 1627632472371,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "2520766720b8c5ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627632048980,
+          "stop" : 1627632049071,
+          "duration" : 91
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2e0ee78aa4200a8.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}
