@@ -1,37 +1,8 @@
-const exec = require('child_process').exec;
-const allure = require('allure-commandline');
-//let WDIOReporter = require('../reporter/testrail-reporter')
-const TestRailReporter = require('wdio-v6-testrail-reporter')
-const axios = require('axios')
 
-async function createTestRun() {
-    const response = await axios.post(
-        `https://kiriagio.testrail.io/index.php?/api/v2/add_run/1`,
-        {
-            suite_id: 1,
-            name: 'some test run here',
-            include_all: true,
-        },
-        {
-            auth: {
-                username: 'sandman228@ukr.net',
-                password: 'p3lyuu8frNbPEkc/2KvN',
-            },
-        },
-    );
-    const secondResp = await axios.get('https://kiriagio.testrail.io/index.php?/api/v2/get_suites/1', {
-        auth: {
-            username: 'sandman228@ukr.net',
-            password: 'p3lyuu8frNbPEkc/2KvN',
-        },
-    })
-    //console.log(secondResp)
-}
+const testrailReporter = require('testrail-wdio-reporter')
+
 
 const wdioConfig = {
-    async onPrepare() {
-        createTestRun()
-    },
     runner: 'local',
     specs: [
         './test/specs/**/*.spec.js',
@@ -72,40 +43,15 @@ const wdioConfig = {
         ['MicrosoftEdge']
     ],
     framework: 'mocha',
-    // reporters: ['spec'],
-    reporters: ['spec', [TestRailReporter, {
-        testRailUrl: 'kiriagio.testrail.io',
-        username: 'sandman228@ukr.net',
-        password: 'p3lyuu8frNbPEkc/2KvN',
-        projectId: 1,
-        suiteId: 1,
-    }]],
-    //     reporters: [[ 'D:/wdio/wdio-sync/wdioTestActionsSync/reporter/testrail-reporter.js',
-    //         {
-    //             domain: "kiriagio.testrail.io",
-    //             username: "sandman228@ukr.net",
-    //             password: "p3lyuu8frNbPEkc/2KvN",
-    //             projectId: 1,
-    //             suiteId: 1,
-    //             runName: "My test run"
-    //         }
-    //    //     ,'spec'
-    //     ]],
-    testRailsOptions: {
-        domain: "kiriagio.testrail.io",
-        username: "sandman228@ukr.net",
-        password: "p3lyuu8frNbPEkc/2KvN",
-        projectId: 1,
-        suiteId: 1,
-        runName: "My test run"
-    },
-    // reporters: [['allure', {
-    //     outputDir: 'allure-results',
-    //     disableWebdriverStepsReporting: true,
-    //     disableWebdriverScreenshotsReporting: false,
-    // }], 'spec'],
 
-    //
+    reporters: ['spec', [testrailReporter, {
+        testRailUrl: '***.testrail.io or other url',
+        username: 'username',
+        password: 'password or api',
+        suiteId: 1
+    }]],
+
+    
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
@@ -134,33 +80,6 @@ const wdioConfig = {
             browser.takeScreenshot();
         }
     },
-    // afterStep: function (test, scenario, { error, duration, passed }) {
-    //     browser.takeScreenshot();
-    // },
-
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
-    // onComplete: function() {
-    //     const reportError = new Error('Could not generate Allure report')
-    //     const generation = allure(['generate', 'allure-results', '--clean'])
-
-    //     return new Promise((resolve, reject) => {
-    //         const generationTimeout = setTimeout(
-    //             () => reject(reportError),
-    //             5000)
-    //         exec('cp -R allure-report/history allure-results');
-    //         generation.on('exit', function(exitCode) {
-    //             clearTimeout(generationTimeout)
-
-    //             if (exitCode !== 0) {
-    //                 return reject(reportError)
-    //             }
-
-    //             console.log('Allure report successfully generated')
-    //             resolve()
-    //         });
-    //     })
-    // }
 };
 
 if (process.env.DEBUG == "1") {
